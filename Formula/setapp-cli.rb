@@ -6,8 +6,6 @@ class SetappCli < Formula
   sha256 :no_check
   license "MIT"
 
-  depends_on "bun"
-
   def install
     system "bun", "install", "--global", "setapp-cli"
 
